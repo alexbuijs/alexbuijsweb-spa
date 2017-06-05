@@ -41,8 +41,8 @@
       font-family: Verdana, sans-serif;
       font-size: 76px;
       line-height: 1.22;
-      margin-left: 78px;
-      margin-top: -67px;
+      margin-left: 69px;
+      margin-top: -64px;
       opacity: 0;
       animation: fadeIn ease-in 1;
       animation-fill-mode: forwards;

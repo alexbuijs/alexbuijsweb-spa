@@ -1,0 +1,37 @@
+{
+  "phone": "+31640485702",
+  "email": "contact@alexbuijsweb.nl",
+  "address": "Haïtidreef 3E, 3563 HC, Utrecht, The Netherlands",
+  "home_position": {
+    "lat": 52.123002,
+    "lng": 5.094841
+  },
+  "info": [
+    {
+      "name": "KvK",
+      "number": "59563710"
+    },
+    {
+      "name": "BTW",
+      "number": "NL177182672B01"
+    },
+    {
+      "name": "Bank",
+      "number": "NL30 TRIO 0197 8234 32"
+    }
+  ],
+  "social": [
+    {
+      "name": "linkedin",
+      "url": "linkedin.com/in/alexbuijs"
+    },
+    {
+      "name": "github",
+      "url": "github.com/alexbuijs"
+    },
+    {
+      "name": "facebook",
+      "url": "facebook.com/alexbuijs"
+    }
+  ]
+}

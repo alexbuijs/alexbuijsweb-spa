@@ -2,70 +2,43 @@
   .info
     .page-header
       h2 Address
-        small.text-muted Haïtidreef 3E, 3563 HC, Utrecht, The Netherlands
+        small.text-muted {{$store.address}}
 
-    .map-canvas
+    gmap-map(:center='$store.home_position' :zoom='13')
+      gmap-marker(:position='$store.home_position' :animation='2' title='home')
 
     .page-header
       h2 Info
 
     .row
-      .col-md-4
+      .col-md-4(v-for='provider in $store.info')
         .card
           .card-header
-            strong.card-title KvK
-          .card-block 59563710
-      .col-md-4
-        .card
-          .card-header
-            strong.card-title BTW
-          .card-block NL177182672B01
-      .col-md-4
-        .card
-          .card-header
-            strong.card-title Bank
-          .card-block NL30 TRIO 0197 8234 32
+            strong.card-title {{provider.name}}
+          .card-block {{provider.number}}
 
     .page-header
       h2 Social
 
     .row
-      .col-md-4
+      .col-md-4(v-for='site in $store.social')
         .card
           .card-header
-            strong.card-title linkedin
+            strong.card-title {{site.name}}
           .card-block
-            a(href='https://www.linkedin.com/in/alexbuijs' target='_blank') linkedin.com/in/alexbuijs
-      .col-md-4
-        .card
-          .card-header
-            strong.card-title github
-          .card-block
-            a(href='https://github.com/alexbuijs' target='_blank') github.com/alexbuijs
-      .col-md-4
-        .card
-          .card-header
-            strong.card-title facebook
-          .card-block
-            a(href='https://www.facebook.com/alexbuijs' target='_blank') facebook.com/alexbuijs
+            a(:href='`https://${site.url}`' target='_blank') {{site.url}}
 </template>
 
 <script>
-  export default {}
+  export default { }
 </script>
 
 <style lang="scss" scoped>
-  .page-header {
-    padding-bottom: 9px;
-    margin: 40px 0 20px;
-    border-bottom: 1px solid #eeeeee;
-  }
-
   small {
     margin-left: 10px;
   }
 
-  .map-canvas {
+  .vue-map-container {
     height: 300px;
   }
 </style>

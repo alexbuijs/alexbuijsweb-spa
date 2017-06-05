@@ -1,16 +1,16 @@
 <template lang="pug">
   #app.container
     .row
-      .content.offset-md-2.col-md-8
+      .content.col-md-10
         ul.nav.nav-tabs.nav-justified.flex-column.flex-sm-row
           li.nav-item(v-for='tab in tabs')
             router-link.nav-link(:to="{name: tab}", exact) {{tab}}
         router-view
-        .row
-          .phone.col-md-6
-            a(href='tel:+31640485702') +316 4048 5702
-          .mail.col
-            a(href='mailto:contact@alexbuijsweb.nl') contact@alexbuijsweb.nl
+        .row.contact
+          .col-md-6
+            a(:href='`tel:${$store.phone}`') {{$store.phone | spaces(4)}}
+          .col
+            a(:href='`mailto:${$store.email}`') {{$store.email}}
       .col-md-2.hidden-sm-down
         logo
 </template>
@@ -50,11 +50,13 @@
     padding: 15px;
   }
 
-  .nav-link .active {
-
+  .page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eeeeee;
   }
 
-  .phone, .mail {
+  .contact {
     padding-top: 15px;
     text-align: center;
   }

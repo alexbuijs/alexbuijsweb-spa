@@ -7,13 +7,15 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
+    "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "deploy": "aws s3 sync dist s3://alexbuijsweb --acl public-read"
   },
   "dependencies": {
     "bootstrap-vue": "0.16.1",
     "vue": "2.3.3",
-    "vue-router": "2.5.3"
+    "vue-router": "2.5.3",
+    "vue2-google-maps": "0.7.7"
   },
   "devDependencies": {
     "autoprefixer": "7.1.1",
