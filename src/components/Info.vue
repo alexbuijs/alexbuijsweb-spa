@@ -2,7 +2,7 @@
   .info
     .page-header
       h2 Address
-        small.text-muted {{$store.address}}
+        small.text-muted {{Object.values($store.address).join(', ')}}
 
     gmap-map(:center='$store.home_position' :zoom='13')
       gmap-marker(:position='$store.home_position' :animation='2' title='home')
@@ -28,10 +28,6 @@
           .card-block
             a(:href='`https://${site.url}`' target='_blank') {{site.url}}
 </template>
-
-<script>
-  export default { }
-</script>
 
 <style lang="scss" scoped>
   small {

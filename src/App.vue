@@ -1,26 +1,33 @@
 <template lang="pug">
   #app.container
+    micro-data
     .row
-      .content.col-md-10
+      .content.offset-md-2.col-md-8
         ul.nav.nav-tabs.nav-justified.flex-column.flex-sm-row
           li.nav-item(v-for='tab in tabs')
             router-link.nav-link(:to="{name: tab}", exact) {{tab}}
         router-view
         .row.contact
           .col-md-6
-            a(:href='`tel:${$store.phone}`') {{$store.phone | spaces(4)}}
+            a(:href='`tel:${$store.phone}`')
+              i.fa.fa-phone
+              | {{$store.phone | spaces(4)}}
           .col
-            a(:href='`mailto:${$store.email}`') {{$store.email}}
+            a(:href='`mailto:${$store.email}`')
+              i.fa.fa-envelope
+              | {{$store.email}}
       .col-md-2.hidden-sm-down
         logo
 </template>
 
 <script>
   import Logo from '@/components/Logo'
+  import MicroData from '@/components/MicroData'
 
   export default {
     components: {
-      Logo
+      Logo,
+      MicroData
     },
     data () {
       return {
@@ -38,7 +45,7 @@
 
   @media (min-width: 576px) {
     body {
-      margin: 20px 0;
+      margin: 20px 0 !important;
     }
   }
 
@@ -59,5 +66,9 @@
   .contact {
     padding-top: 15px;
     text-align: center;
+
+    i {
+      margin-right: 5px;
+    }
   }
 </style>

@@ -1,10 +1,14 @@
 <template lang="pug">
-  .home home
+  .home
+    word-cloud(v-once)
 </template>
 
 <script>
-  export default {}
-</script>
+  import WordCloud from '@/components/WordCloud'
 
-<style lang="scss" scoped>
-</style>
+  export default {
+    components: {
+      WordCloud
+    }
+  }
+</script>

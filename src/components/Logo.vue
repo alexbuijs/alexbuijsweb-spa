@@ -10,6 +10,18 @@
 </template>
 
 <style lang="scss" scoped>
+  @font-face {
+    font-family: 'OCR A Std';
+    src: url('../assets/fonts/ocr_a_std.eot');
+    src: url('../assets/fonts/ocr_a_std.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/ocr_a_std.woff') format('woff'),
+        url('../assets/fonts/ocr_a_std.ttf') format('truetype'),
+        url('../assets/fonts/ocr_a_std.svg#OCR A Std') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+  }
+
   @keyframes fadeIn {
     from {
       opacity: 0;
