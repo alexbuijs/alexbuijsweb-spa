@@ -12,8 +12,8 @@
         delay: 10,
         autoResize: true,
         fontSize: {
-          from: 0.07,
-          to: 0.01
+          from: 0.065,
+          to: 0.015
         }
       })
     },
