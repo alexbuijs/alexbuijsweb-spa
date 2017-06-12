@@ -6,10 +6,9 @@
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "node build/dev-server.js",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy": "aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read"
+    "deploy": "aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=31536000 --size-only --exclude index.html; aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=60 --exclude '*' --include index.html"
   },
   "dependencies": {
     "bootstrap-vue": "0.16.1",
