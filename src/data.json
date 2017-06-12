@@ -50,6 +50,14 @@
       "employer": "Alex Buijs Web Development",
       "projects": [
         {
+          "started": "2015-02",
+          "ended": "2017-05",
+          "company": "YoungCapital",
+          "branch": "Employment",
+          "platform": "Backbone/Marionette/Ruby on Rails/Vue.js",
+          "description": "For YoungCapital, Alex created cross platform mobile applications and their API. Techniques used: Cordova, Backbone, Marionette, Browserify, Gulp, Coffeescript, SASS."
+        },
+        {
           "started": "2014-09",
           "ended": "2014-12",
           "company": "Digidentity",
@@ -258,14 +266,14 @@
         "weight": 9
       },
       {
-        "text": "Javascript",
-        "weight": 5
+        "text": "ES6",
+        "weight": 8
       }
     ],
     "js": [
       {
         "text": "Coffeescript",
-        "weight": 6
+        "weight": 5
       }
     ],
     "html": [
@@ -275,15 +283,15 @@
       },
       {
         "text": "HAML",
-        "weight": 5
+        "weight": 4
       },
       {
         "text": "Slim",
-        "weight": 2
+        "weight": 3
       },
       {
-        "text": "ERB",
-        "weight": 1
+        "text": "Pug",
+        "weight": 4
       }
     ],
     "css": [
@@ -297,17 +305,13 @@
       },
       {
         "text": "Sass",
-        "weight": 3
-      },
-      {
-        "text": "LESS",
-        "weight": 1
+        "weight": 4
       }
     ],
     "sql": [
       {
         "text": "SQL",
-        "weight": 3
+        "weight": 5
       }
     ],
     "databases": [
@@ -317,10 +321,14 @@
       },
       {
         "text": "PostgreSQL",
-        "weight": 6
+        "weight": 4
       },
       {
         "text": "Redis",
+        "weight": 4
+      },
+      {
+        "text": "Elasticsearch",
         "weight": 4
       }
     ],
@@ -331,57 +339,57 @@
       },
       {
         "text": "Backbone.js",
-        "weight": 6
+        "weight": 5
       },
       {
         "text": "Marionette.js",
+        "weight": 5
+      },
+      {
+        "text": "Browserify",
         "weight": 6
       },
       {
-        "text": "RequireJS",
+        "text": "Gulp",
         "weight": 6
+      },
+      {
+        "text": "Webpack",
+        "weight": 7
+      },
+      {
+        "text": "Vue.js",
+        "weight": 7
       }
     ],
     "css_frameworks": [
       {
         "text": "Bootstrap",
         "weight": 4
-      },
-      {
-        "text": "Foundation",
-        "weight": 4
       }
     ],
     "testing_frameworks": [
       {
         "text": "RSpec",
-        "weight": 6
+        "weight": 7
       },
       {
         "text": "Cucumber",
         "weight": 6
       },
       {
-        "text": "Capybara",
-        "weight": 4
-      },
-      {
-        "text": "Mocha",
-        "weight": 4
-      },
-      {
-        "text": "Konacha",
+        "text": "Karma",
         "weight": 4
       }
     ],
     "ci_and_code_quality": [
       {
         "text": "Jenkins",
-        "weight": 6
+        "weight": 1
       },
       {
         "text": "Rubocop",
-        "weight": 1
+        "weight": 2
       }
     ],
     "mobile": [
@@ -396,8 +404,8 @@
         "weight": 3
       },
       {
-        "text": "Vagrant",
-        "weight": 3
+        "text": "Docker",
+        "weight": 5
       }
     ],
     "tools": [
@@ -406,15 +414,11 @@
         "weight": 6
       },
       {
-        "text": "Sublime Text",
+        "text": "Atom",
         "weight": 1
       },
       {
-        "text": "OS X",
-        "weight": 2
-      },
-      {
-        "text": "Homebrew",
+        "text": "OSX",
         "weight": 2
       }
     ],
@@ -428,10 +432,6 @@
         "weight": 3
       },
       {
-        "text": "Unicorn",
-        "weight": 3
-      },
-      {
         "text": "Passenger",
         "weight": 3
       }
@@ -439,7 +439,7 @@
     "services": [
       {
         "text": "Heroku",
-        "weight": 5
+        "weight": 2
       },
       {
         "text": "GitHub",

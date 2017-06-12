@@ -5,7 +5,7 @@
       .content.offset-md-2.col-md-8
         ul.nav.nav-tabs.nav-justified.flex-column.flex-sm-row
           li.nav-item(v-for='tab in tabs')
-            router-link.nav-link(:to="{name: tab}", exact) {{tab}}
+            router-link.nav-link(:to="{name: tab}" exact) {{tab}}
         router-view
         .row.contact
           .col-md-6

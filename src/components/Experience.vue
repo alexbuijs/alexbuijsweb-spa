@@ -18,11 +18,11 @@
               th(v-for='prop in props') {{prop | capitalize}}
           tbody
             tr(v-for='project in job.projects')
-              b-popover(v-if='project.description' :content='project.description' triggers='hover' placement='right', class='info')
+              b-popover(v-if='project.description' :content='project.description' triggers='hover' placement='right' class='info')
                 td
                   i.fa.fa-info
               td(v-else)
-              td(v-for='prop in props') {{project[prop]}}
+              td(v-for='prop in props' :class='prop') {{project[prop]}}
 </template>
 
 <script>
@@ -56,5 +56,9 @@
 
   .info {
     width: 5px;
+  }
+
+  .started, .ended {
+    min-width: 82px;
   }
 </style>
