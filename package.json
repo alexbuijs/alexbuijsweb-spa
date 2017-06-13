@@ -8,7 +8,9 @@
     "dev": "node build/dev-server.js",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
-    "deploy": "aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=31536000 --size-only --exclude index.html; aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=60 --exclude '*' --include index.html"
+    "sync_assets": "aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=31536000 --delete --size-only --exclude index.html",
+    "sync_index": "aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=60 --include index.html --exclude '*'",
+    "deploy": "yarn build && yarn sync_assets && yarn sync_index"
   },
   "dependencies": {
     "bootstrap-vue": "0.16.1",
