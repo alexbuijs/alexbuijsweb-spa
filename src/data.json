@@ -256,119 +256,39 @@
     }
   ],
   "skills": {
-    "basic": [
+    "languages": [
       {
         "text": "Ruby",
         "weight": 10
       },
       {
-        "text": "Rails",
-        "weight": 9
-      },
-      {
         "text": "ES6",
         "weight": 8
-      }
-    ],
-    "js": [
+      },
+      {
+        "text": "TypeScript",
+        "weight": 6
+      },
       {
         "text": "Coffeescript",
-        "weight": 5
-      }
-    ],
-    "html": [
-      {
-        "text": "HTML5",
-        "weight": 3
+        "weight": 6
       },
       {
-        "text": "HAML",
-        "weight": 4
-      },
-      {
-        "text": "Slim",
-        "weight": 3
-      },
-      {
-        "text": "Pug",
-        "weight": 4
-      }
-    ],
-    "css": [
-      {
-        "text": "CSS3",
-        "weight": 3
-      },
-      {
-        "text": "SCSS",
+        "text": "JavaScript",
         "weight": 5
       },
-      {
-        "text": "Sass",
-        "weight": 4
-      }
-    ],
-    "sql": [
       {
         "text": "SQL",
         "weight": 5
       }
     ],
-    "databases": [
+    "ruby_frameworks": [
       {
-        "text": "MySQL",
-        "weight": 3
-      },
-      {
-        "text": "PostgreSQL",
-        "weight": 4
-      },
-      {
-        "text": "Redis",
-        "weight": 4
-      },
-      {
-        "text": "Elasticsearch",
-        "weight": 4
+        "text": "Rails",
+        "weight": 9
       }
     ],
-    "js_frameworks": [
-      {
-        "text": "jQuery",
-        "weight": 6
-      },
-      {
-        "text": "Backbone.js",
-        "weight": 5
-      },
-      {
-        "text": "Marionette.js",
-        "weight": 5
-      },
-      {
-        "text": "Browserify",
-        "weight": 6
-      },
-      {
-        "text": "Gulp",
-        "weight": 6
-      },
-      {
-        "text": "Webpack",
-        "weight": 7
-      },
-      {
-        "text": "Vue.js",
-        "weight": 7
-      }
-    ],
-    "css_frameworks": [
-      {
-        "text": "Bootstrap",
-        "weight": 4
-      }
-    ],
-    "testing_frameworks": [
+    "ruby_tools": [
       {
         "text": "RSpec",
         "weight": 7
@@ -378,51 +298,133 @@
         "weight": 6
       },
       {
-        "text": "Karma",
+        "text": "Rubocop",
         "weight": 4
-      }
-    ],
-    "ci_and_code_quality": [
-      {
-        "text": "Jenkins",
-        "weight": 1
       },
       {
-        "text": "Rubocop",
+        "text": "Sidekiq",
+        "weight": 3
+      },
+      {
+        "text": "Bundler",
+        "weight": 3
+      }
+    ],
+    "js_frameworks": [
+      {
+        "text": "Vue.js",
+        "weight": 7
+      },
+      {
+        "text": "Angular2",
+        "weight": 5
+      },
+      {
+        "text": "Marionette.js",
+        "weight": 4
+      },
+      {
+        "text": "Backbone.js",
+        "weight": 3
+      },
+      {
+        "text": "Lodash",
+        "weight": 2
+      },
+      {
+        "text": "jQuery",
+        "weight": 1
+      }
+    ],
+    "js_tools": [
+      {
+        "text": "Webpack",
+        "weight": 8
+      },
+      {
+        "text": "Gulp",
+        "weight": 5
+      },
+      {
+        "text": "Browserify",
+        "weight": 5
+      },
+      {
+        "text": "Karma",
+        "weight": 4
+      },
+      {
+        "text": "Yarn",
+        "weight": 3
+      },
+      {
+        "text": "Babel",
         "weight": 2
       }
     ],
-    "mobile": [
+    "css_frameworks": [
       {
-        "text": "Cordova",
+        "text": "Bootstrap",
         "weight": 4
+      },
+      {
+        "text": "CSS3",
+        "weight": 3
       }
     ],
-    "deployment": [
+    "css_tools": [
+      {
+        "text": "Sass",
+        "weight": 5
+      }
+    ],
+    "html_frameworks": [
+      {
+        "text": "HTML5",
+        "weight": 3
+      }
+    ],
+    "html_tools": [
+      {
+        "text": "Pug",
+        "weight": 5
+      },
+      {
+        "text": "Haml",
+        "weight": 5
+      }
+    ],
+    "databases": [
+      {
+        "text": "PostgreSQL",
+        "weight": 5
+      },
+      {
+        "text": "Redis",
+        "weight": 4
+      },
+      {
+        "text": "Elasticsearch",
+        "weight": 4
+      },
+      {
+        "text": "MySQL",
+        "weight": 3
+      }
+    ],
+    "devops": [
+      {
+        "text": "Docker",
+        "weight": 6
+      },
+      {
+        "text": "GitHub",
+        "weight": 5
+      },
       {
         "text": "Capistrano",
         "weight": 3
       },
-      {
-        "text": "Docker",
-        "weight": 5
-      }
-    ],
-    "tools": [
-      {
-        "text": "Git",
-        "weight": 6
-      },
-      {
-        "text": "Atom",
-        "weight": 1
-      },
-      {
-        "text": "OSX",
-        "weight": 2
-      }
-    ],
-    "web_servers": [
       {
         "text": "Nginx",
         "weight": 3
@@ -434,34 +436,48 @@
       {
         "text": "Passenger",
         "weight": 3
-      }
-    ],
-    "services": [
+      },
+      {
+        "text": "AWS",
+        "weight": 3
+      },
       {
         "text": "Heroku",
         "weight": 2
       },
       {
-        "text": "GitHub",
-        "weight": 5
+        "text": "Jenkins",
+        "weight": 1
+      }
+    ],
+    "mobile": [
+      {
+        "text": "Cordova",
+        "weight": 4
+      }
+    ],
+    "tools": [
+      {
+        "text": "Git",
+        "weight": 6
       },
       {
-        "text": "Amazon S3",
-        "weight": 3
+        "text": "VSCode",
+        "weight": 1
       },
       {
-        "text": "Amazon EC2",
-        "weight": 3
+        "text": "OSX",
+        "weight": 1
       }
     ],
     "methods": [
       {
-        "text": "Test Driven Development",
-        "weight": 4
-      },
-      {
         "text": "Scrum",
         "weight": 5
+      },
+      {
+        "text": "Test Driven Development",
+        "weight": 4
       }
     ]
   }
