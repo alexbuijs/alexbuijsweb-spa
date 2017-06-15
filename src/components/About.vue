@@ -14,7 +14,7 @@
       I am a developer with over {{yearsAgo('2006-1-1')}} years of experience creating web applications.
       From 2006 to 2014, I worked as a consultant for Ciber Netherlands B.V. within the ECM & Portals service line.
       I have about {{yearsAgo('2008-10-1')}} years of experience writing Ruby on Rails web applications.
-      Once I discovered Ruby, there was no way back for me. I gain much satisfaction from programming in Ruby.
+      Once I discovered Ruby, I never looked back. I gain much satisfaction from programming in Ruby.
       In january 2014 I started as a freelancer. I enjoy using the latest techniques and adhering to best practices.
       I take pride in creating elegant and minimal code.
 
@@ -30,7 +30,7 @@
 
     p.
       If you are looking for a developer for your website or your hybrid mobile app, contact me. I can develop the
-      back-end/API of your site (Ruby on Rails), the front-end (HTML5/JS/CSS), or both. I have experience
+      back-end (Ruby on Rails), the front-end (e.g. Vue.js), or both. I have experience
       working as part of a larger team as well as developing single-handedly. I love working in an agile way, either
       remote or on site.
 </template>
@@ -51,9 +51,12 @@
   .thumbnail {
     cursor: pointer;
     float: right;
-    height: 200px;
     margin-bottom: 5px;
     margin-left: 5px;
-    width: 200px;
+
+    img {
+      height: 200px;
+      width: 200px;
+    }
   }
 </style>

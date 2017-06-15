@@ -54,8 +54,8 @@
           "ended": "2017-05",
           "company": "YoungCapital",
           "branch": "Employment",
-          "platform": "Backbone/Marionette/Ruby on Rails/Vue.js",
-          "description": "For YoungCapital, Alex created cross platform mobile applications and their API. Techniques used: Cordova, Backbone, Marionette, Browserify, Gulp, Coffeescript, SASS."
+          "platform": "Backbone/Marionette/RoR/Vue.js",
+          "description": "For YoungCapital, Alex created cross platform mobile applications and their API. The applications are used for applying to jobs or registering declarations, among many other things.<br><br>Techniques used: Cordova, Backbone, Marionette, Browserify, Gulp, Coffeescript, Vue.js, Webpack, ES6, SASS."
         },
         {
           "started": "2014-09",
@@ -63,7 +63,7 @@
           "company": "Digidentity",
           "branch": "Security",
           "platform": "Ruby on Rails",
-          "description": "For Digidentity, Alex contributed to DigiD, the identity management platform for the Dutch government. Techniques used: Rails, Coffeescript, HAML, SASS, Git."
+          "description": "For Digidentity, Alex contributed to DigiD, the identity management platform for the Dutch government. Techniques used: Rails, Coffeescript, HAML, SASS."
         },
         {
           "started": "2014-05",
@@ -71,22 +71,23 @@
           "company": "Yellowbrick",
           "branch": "Parking",
           "platform": "Cordova/Backbone/Marionette",
-          "description": "For Yellowbrick, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline), Backbone, Marionette, RequireJS, Emblem.js, Coffeescript, SASS, Git."
+          "description": "For Yellowbrick, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline), Backbone, Marionette, RequireJS, Emblem.js, Coffeescript, SASS."
         },
         {
           "started": "2014-04",
           "ended": "2014-05",
-          "company": "Seacon Logistics",
+          "company": "Seacon",
           "branch": "Logistics",
           "platform": "Cordova/Backbone/Marionette",
-          "description": "For Seacon Logistics, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline and backend API), Backbone, Marionette, Bootstrap, Coffeescript, SASS, Git."
+          "description": "For Seacon Logistics, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline and backend API), Backbone, Marionette, Bootstrap, Coffeescript, SASS."
         },
         {
           "started": "2014-02",
           "ended": "2014-04",
           "company": "IDT Capture",
           "branch": "Scanning",
-          "platform": "Cordova/Backbone"
+          "platform": "Cordova/Backbone",
+          "description": "For IDT Capture, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline and backend API), Backbone, Marionette, Bootstrap, Coffeescript, SASS."
         },
         {
           "started": "2014-01",
@@ -94,7 +95,7 @@
           "company": "Ultimaker",
           "branch": "3D printing",
           "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, Coffeescript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku, Git."
+          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, Coffeescript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku."
         }
       ]
     },
@@ -107,7 +108,7 @@
           "company": "Ultimaker",
           "branch": "3D printing",
           "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, Coffeescript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku, Git."
+          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, Coffeescript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku."
         },
         {
           "started": "2013-01",
@@ -115,7 +116,7 @@
           "company": "Malmberg",
           "branch": "Education",
           "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Malmberg, a customer of Ciber, Alex contributed over several periods of time, to the expansion of the Malmberg Publishing Platform, a new generation of teaching methods.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, SQL Server, Apache, Passenger, Capistrano, Git."
+          "description": "creation and "
         },
         {
           "started": "2012-07",
@@ -123,7 +124,7 @@
           "company": "Philips",
           "branch": "Lighting",
           "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of light-collector.com, a social platform for sharing images.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, PostgreSQL, Amazon S2, Nginx, Unicorn, Capistrano, Git."
+          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of light-collector.com, a social platform for sharing images.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, PostgreSQL, Amazon S2, Nginx, Unicorn."
         },
         {
           "started": "2012-04",
@@ -131,7 +132,7 @@
           "company": "Malmberg",
           "branch": "Education",
           "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Malmberg, a customer of Ciber, Alex contributed over several periods of time, to the expansion of the Malmberg Publishing Platform, a new generation of teaching methods.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, SQL Server, Apache, Passenger, Capistrano, Git."
+          "description": "creation and "
         },
         {
           "started": "2012-02",
@@ -139,7 +140,7 @@
           "company": "Philips",
           "branch": "Lighting",
           "platform": "Titanium Mobile Apps",
-          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of the cross-platform mobile application Lighting Hub. It is used for browsing the entire Philips Lighting Catalogue.<br><br>Techniques used: Titanium, Coffeescript, SQLite, Git."
+          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of the cross-platform mobile application Lighting Hub. It is used for browsing the entire Philips Lighting Catalogue.<br><br>Techniques used: Titanium, Coffeescript, SQLite."
         },
         {
           "started": "2010-12",
@@ -147,7 +148,7 @@
           "company": "Malmberg",
           "branch": "Education",
           "platform": "Ruby on Rails/Javascript",
-          "description": "For Malmberg, a customer of Ciber, Alex contributed over several periods of time, to the expansion of the Malmberg Publishing Platform, a new generation of teaching methods.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, SQL Server, Apache, Passenger, Capistrano, Git."
+          "description": "For Malmberg, a customer of Ciber, Alex contributed over several periods of time, to the creation and expansion of the Malmberg Publishing Platform, a new generation of teaching methods.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, SQL Server, Apache, Passenger."
         },
         {
           "started": "2010-10",
@@ -161,8 +162,7 @@
           "ended": "2010-10",
           "company": "Malmberg",
           "branch": "Education",
-          "platform": "Ruby on Rails/Javascript",
-          "description": "For Malmberg, a customer of Ciber, Alex contributed over several periods of time, to the creation of the Malmberg Publishing Platform, a new generation of teaching methods.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, SQL Server, Apache, Passenger, Capistrano, Git."
+          "platform": "Ruby on Rails/Javascript"
         },
         {
           "started": "2008-01",
@@ -215,6 +215,12 @@
     }
   ],
   "portfolio": [
+    {
+      "name": "youngcapital",
+      "title": "YoungCapital",
+      "link": "https://www.youngcapital.nl/info/app",
+      "description": "For YoungCapital I created the YoungCapital, StudentenWerk and StudentJob mobile applications, based on Cordova."
+    },
     {
       "name": "digid",
       "title": "Digidentity",

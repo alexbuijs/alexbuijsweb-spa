@@ -58,7 +58,7 @@
     width: 5px;
   }
 
-  .started, .ended {
-    min-width: 82px;
+  .started, .ended, .company, .branch {
+    white-space: nowrap;
   }
 </style>
