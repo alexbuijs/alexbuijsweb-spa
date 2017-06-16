@@ -1,6 +1,5 @@
 <template lang="pug">
   #app.container
-    micro-data
     .row
       .content.offset-md-2.col-md-8
         ul.nav.nav-tabs.nav-justified.flex-column.flex-sm-row
@@ -22,12 +21,10 @@
 
 <script>
   import Logo from '@/components/Logo'
-  import MicroData from '@/components/MicroData'
 
   export default {
     components: {
-      Logo,
-      MicroData
+      Logo
     },
     data () {
       return {

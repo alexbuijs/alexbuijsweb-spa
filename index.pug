@@ -1,0 +1,22 @@
+-
+  data = require('@/data.json')
+  map = require('lodash/map')
+  keywords = Object.values(data.skills).reduce((previous, skillSet) => {
+    return `${previous},${map(skillSet, skill => skill.text)}`
+  }, data.name.replace(' ', ','))
+
+doctype html
+html(lang='en')
+  head
+    title= `${data.title} - ${data.job_title} located in ${data.address.city}`
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='description' content=data.description)
+    meta(name='keywords' content=keywords)
+    link(href=`https://plus.google.com/${data.google_plus_key}` rel='publisher')
+    link(href=`https://plus.google.com/${data.google_plus_key}` rel='author')
+    link(href=require('@/assets/favicon.ico') rel='shortcut icon')
+    link(href=data.url rel='canonical')
+    include linked_data
+  body
+    #app

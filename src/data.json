@@ -2,7 +2,8 @@
   "name": "Alex Buijs",
   "title": "Alex Buijs Web Development",
   "job_title": "Freelance Ruby on Rails Web Developer",
-  "url": "https://www.alexbuijsweb.nl/",
+  "description": "Alex Buijs is a Utrecht based freelance web developer specialized in the Ruby on Rails web framework",
+  "url": "https://www.alexbuijsweb.nl",
   "phone": "+31640485702",
   "email": "contact@alexbuijsweb.nl",
   "address": {
@@ -15,6 +16,7 @@
     "lat": 52.123002,
     "lng": 5.094841
   },
+  "google_plus_key": "115659084852089582729",
   "google_maps_key": "AIzaSyDnir75m6PKKc8qMi2p-HpSHs36yDP_zhM",
   "google_analytics_key": "UA-100756115-1",
   "info": [

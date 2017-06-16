@@ -1,0 +1,102 @@
+- data = require('@/data.json')
+- let social = []; data.social.forEach(site => { social.push(`"https://${site.url}"`) })
+
+script(type='application/ld+json').
+  [
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "#{data.title}",
+      "url": "#{data.url}",
+      "logo": "#{data.url + require('@/assets/profile.jpg')}",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "#{data.phone}",
+        "email": "#{data.email}"
+      },
+      "sameAs": [!{social}]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "#{data.name}",
+      "jobTitle": "#{data.job_title}",
+      "telephone": "#{data.phone}",
+      "email": "#{data.email}",
+      "url": "#{data.url}",
+      "image": "#{data.url + require('@/assets/profile.jpg')}"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "#{data.title}",
+      "alternateName": "#{data.description}",
+      "url": "#{data.url}"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "PostalAddress",
+      "streetAddress": "#{data.address.street}",
+      "postalCode": "#{data.address.zipcode}",
+      "addressLocality": "#{data.address.city}",
+      "addressCountry": "#{data.address.country}",
+      "telephone": "#{data.phone}",
+      "email": "#{data.email}"
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "#{data.home_position.lat}",
+        "longitude": "#{data.home_position.lng}"
+      }
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "#{data.url}",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "#{data.url}/about",
+            "name": "About"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "#{data.url}/info",
+            "name": "Info"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "#{data.url}/projects",
+            "name": "Projects"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "#{data.url}/experience",
+            "name": "Experience"
+          }
+        }
+      ]
+    }
+  ]
