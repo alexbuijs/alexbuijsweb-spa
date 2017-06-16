@@ -6,12 +6,22 @@
     b-carousel(controls indicators :interval='0')
       template(v-for='project in $store.portfolio')
         b-carousel-slide
-          img.d-block.img-fluid(:src="`${require(`../assets/projects/${project.name}.png`)}`")
-          .carousel-caption.d-none.d-md-block
-            h3
-              a(:href='project.link' target='_blank') {{project.title}}
-            p {{project.description}}
+          a(:href='project.link' target='_blank')
+            img.d-block.img-fluid(:src="`${require(`../assets/projects/${assetName(project)}.png`)}`")
+            .carousel-caption.d-none.d-md-block
+              h3 {{project.title}}
+              p {{project.description}}
 </template>
+
+<script>
+  export default {
+    methods: {
+      assetName (project) {
+        return project.title.replace(' ', '-').toLowerCase()
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
   .carousel-item {

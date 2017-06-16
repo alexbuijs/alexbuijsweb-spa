@@ -216,49 +216,41 @@
   ],
   "portfolio": [
     {
-      "name": "youngcapital",
       "title": "YoungCapital",
       "link": "https://www.youngcapital.nl/info/app",
       "description": "For YoungCapital I created the YoungCapital, StudentenWerk and StudentJob mobile applications, based on Cordova."
     },
     {
-      "name": "digid",
       "title": "Digidentity",
       "link": "https://www.digid.nl/mijn-digid/",
-      "description": "For Digidentity I contributed to the identity management platform for the Dutch government, a Rails application"
+      "description": "For Digidentity I contributed to the identity management platform for the Dutch government, a Rails application."
     },
     {
-      "name": "yellowbrick",
       "title": "Yellowbrick",
       "link": "https://www.yellowbrick.nl/parkeer-app/",
-      "description": "For Yellowbrick I contributed to this mobile application, essentially a one-page Backbone/Marionette app, packaged with Apache Cordova"
+      "description": "For Yellowbrick I contributed to this mobile application, essentially a one-page Backbone/Marionette app, packaged with Cordova."
     },
     {
-      "name": "youmagine",
       "title": "YouMagine",
       "link": "https://www.youmagine.com/",
-      "description": "For Ultimaker I contributed to building this social platform for sharing 3D print designs"
+      "description": "For Ultimaker I contributed to building this social platform for sharing 3D print designs."
     },
     {
-      "name": "examentrainer",
       "title": "Examentrainer",
-      "description": "For Malmberg I made this exam trainer for MBO students"
+      "description": "For Malmberg I made this exam trainer for MBO students."
     },
     {
-      "name": "light-collector",
       "title": "Light Collector",
       "link": "https://www.light-collector.com/",
-      "description": "For Philips I made this social platform for sharing images as part of a team"
+      "description": "For Philips I made this social platform for sharing images as part of a team."
     },
     {
-      "name": "lppmbo",
       "title": "Taalblokken",
-      "description": "For Malmberg I made this digital education environment for MBO students as part of a team"
+      "description": "For Malmberg I made this digital education environment for MBO students as part of a team."
     },
     {
-      "name": "lppvo",
       "title": "Methodesites",
-      "description": "For Malmberg I made this digital education environment for VO students as part of a team"
+      "description": "For Malmberg I made this digital education environment for VO students as part of a team."
     }
   ],
   "skills": {
