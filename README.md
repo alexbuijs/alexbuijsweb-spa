@@ -6,16 +6,22 @@
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn dev
 
-# build for production with minification
-npm run build
+# lint code
+yarn lint
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+# build for production
+yarn build
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# synchronize assets (w/o index.html) with Amazon S3
+yarn sync_assets
+
+# synchronize index.html with Amazon S3
+yarn sync_index
+
+# deploy to production (build/sync_assets/sync_index)
+yarn deploy
