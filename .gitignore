@@ -1,7 +1,8 @@
 .DS_Store
-node_modules/
-dist/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-rootkey.csv
+/node_modules
+/dist
+/rootkey.csv
+/src/assets/resumes/*
+!/src/assets/resumes/resume.pdf
+!/src/assets/resumes/resume.html
+!/src/assets/resumes/resume.doc

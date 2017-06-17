@@ -8,6 +8,7 @@
     "dev": "node build/dev-server.js",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js",
+    "build_resumes": "hackmyresume BUILD src/resume.json TO src/assets/resumes/resume.pdf src/assets/resumes/resume.html src/assets/resumes/resume.doc",
     "sync_assets": "aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=31536000 --delete --size-only --exclude index.html",
     "sync_index": "aws s3 sync dist s3://www.alexbuijsweb.nl --acl public-read --cache-control max-age=60 --exclude '*' --include index.html",
     "deploy": "yarn build && yarn sync_assets && yarn sync_index"
@@ -48,6 +49,7 @@
     "extract-text-webpack-plugin": "2.1.2",
     "file-loader": "0.11.2",
     "friendly-errors-webpack-plugin": "1.6.1",
+    "hackmyresume": "1.8.0",
     "html-webpack-plugin": "2.28.0",
     "http-proxy-middleware": "0.17.4",
     "node-sass": "4.5.3",

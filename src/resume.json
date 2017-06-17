@@ -1,0 +1,83 @@
+{
+  "basics": {
+    "name": "Alex Buijs",
+    "label": "Full Stack Web Developer",
+    "picture": "https://www.alexbuijsweb.nl/img/profile.e74de64.jpg",
+    "email": "contact@alexbuijsweb.nl",
+    "phone": "+316 4048 5702",
+    "website": "https://www.alexbuijsweb.nl",
+    "summary": "Alex Buijs (17-05-1974) is a full-stack web developer with over 11 years of experience. In January 2014 he started as a freelancer. He enjoys using the latest techniques and adhering to best practices. He takes pride in creating beautiful and minimal code. Alex is a team player and is used to work on Agile/Scrum driven projects for larger organisations. He believes in high quality software best practices such as Test Driven Development and Behaviour Driven Development.",
+    "location": {
+      "address": "Haïtidreef 3E",
+      "postalCode": "3563 HC",
+      "city": "Utrecht",
+      "countryCode": "NL",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "alexbuijs",
+        "url": "https://linkedin.com/in/alexbuijs"
+      },
+      {
+        "network": "GitHub",
+        "username": "alexbuijs",
+        "url": "https://github.com/alexbuijs"
+      },
+      {
+        "network": "Facebook",
+        "username": "alexbuijs",
+        "url": "https://facebook.com/alexbuijs"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Alex Buijs Web Development",
+      "position": "Owner",
+      "website": "https://www.alexbuijsweb.nl",
+      "startDate": "2014",
+      "endDate": "present",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Utrecht University",
+      "area": "Cognitive Artificial Intelligence",
+      "studyType": "Masters degree",
+      "startDate": "1995",
+      "endDate": "2001",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": []
+}

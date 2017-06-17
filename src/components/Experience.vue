@@ -3,10 +3,16 @@
     .page-header
       h2 Work experience
 
-    .resume
-      a(:href="`${require('../assets/resume.pdf')}`" target='_blank')
-        i.fa.fa-file
-        | Download resume
+    .resumes
+      a(:href="`${require('../assets/resumes/resume.pdf')}`" target='_blank')
+        i.fa.fa-file-pdf-o
+        | Download resume (PDF)
+      a(:href="`${require('../assets/resumes/resume.doc')}`" target='_blank')
+        i.fa.fa-file-word-o
+        | Download resume (MS Word)
+      a(:href="`${require('../assets/resumes/resume.html')}`" target='_blank')
+        i.fa.fa-file-text-o
+        | Download resume (HTML)
 
     .card(v-for='job in $store.jobs')
       h6.card-header {{job.employer}}
@@ -36,7 +42,9 @@
 </script>
 
 <style lang="scss" scoped>
-  .resume {
+  .resumes {
+    display: flex;
+    justify-content: space-between;
     padding-bottom: 9px;
     margin: 20px 0;
     border-bottom: 1px solid #eeeeee;

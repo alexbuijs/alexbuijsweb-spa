@@ -58,7 +58,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(pdf|ico)(\?.*)?$/,
+        test: /\.(pdf|ico|doc|html)(\?.*)?$/,
         loader: 'url-loader',
         options: {
           limit: 1,
