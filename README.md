@@ -2,26 +2,38 @@
 
 > SPA for alexbuijsweb
 
-## Build Setup
+## Installation
 
 ``` bash
+# install homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# install awscli
+brew install awscli
+
+# Configure aws
+aws configure
+
+# install yarn
+brew install yarn
+
 # install dependencies
 yarn
+```
 
+## Development
+
+``` bash
 # serve with hot reload at localhost:8080
 yarn dev
 
 # lint code
 yarn lint
+```
 
-# build for production
-yarn build
+## Deployment
 
-# synchronize assets (w/o index.html) with Amazon S3
-yarn sync_assets
-
-# synchronize index.html with Amazon S3
-yarn sync_index
-
-# deploy to production (build/sync_assets/sync_index)
+``` bash
+# deploy to production
 yarn deploy
+```
