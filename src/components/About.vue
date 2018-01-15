@@ -11,9 +11,9 @@
                         @click="$root.$emit('show::modal', 'profile-picture')")
 
     p.
-      I am a developer with over {{yearsAgo('2006-1-1')}} years of experience creating web applications.
+      I am a developer with over {{yearsAgo('2006-01-01')}} years of experience creating web applications.
       From 2006 to 2014, I worked as a consultant for Ciber Netherlands B.V. within the ECM & Portals service line.
-      I have about {{yearsAgo('2008-10-1')}} years of experience writing Ruby on Rails web applications.
+      I have about {{yearsAgo('2008-10-01')}} years of experience writing Ruby on Rails web applications.
       Once I discovered Ruby, I never looked back. I gain much satisfaction from programming in Ruby.
       In january 2014 I started as a freelancer. I enjoy using the latest techniques and adhering to best practices.
       I take pride in creating elegant and minimal code.
