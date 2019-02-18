@@ -56,16 +56,16 @@
           "ended": "",
           "company": "Mobiliteitsfabriek",
           "branch": "Transportation",
-          "platform": "Ruby on Rails/React",
-          "description": "For Mobiliteitsfabriek, Alex worked on Reisbalans, a platform for integrating transport systems into a mobility solution.<br><br>Techniques used: Ruby on Rails, PostgreSQL, Haml, SASS, React, Webpack."
+          "platform": "Ruby on Rails / React / React Native",
+          "description": "For Mobiliteitsfabriek, Alex worked on Reisbalans, a platform for integrating transport systems into a mobility solution.<br><br>Techniques used: Ruby on Rails, GraphQL, PostgreSQL, React, React Native, Webpack, Haml, SASS, Ansible."
         },
         {
           "started": "2015-02",
           "ended": "2017-06",
           "company": "YoungCapital",
           "branch": "Employment",
-          "platform": "Backbone/Marionette/RoR/Vue.js",
-          "description": "For YoungCapital, Alex created cross platform mobile applications and their API. The applications are used for applying to jobs or registering declarations, among many other things.<br><br>Techniques used: Cordova, Backbone, Marionette, Browserify, Gulp, Coffeescript, Vue.js, Webpack, ES6, SASS."
+          "platform": "Backbone / Marionette / RoR / Vue.js",
+          "description": "For YoungCapital, Alex created cross platform mobile applications and their API. The applications are used for applying to jobs or registering declarations, among many other things.<br><br>Techniques used: Cordova, Backbone, Marionette, Browserify, Gulp, CoffeeScript, Vue.js, Webpack, ES6, SASS."
         },
         {
           "started": "2014-09",
@@ -73,39 +73,39 @@
           "company": "Digidentity",
           "branch": "Security",
           "platform": "Ruby on Rails",
-          "description": "For Digidentity, Alex contributed to DigiD, the identity management platform for the Dutch government. Techniques used: Rails, Coffeescript, HAML, SASS."
+          "description": "For Digidentity, Alex contributed to DigiD, the identity management platform for the Dutch government. Techniques used: Rails, CoffeeScript, HAML, SASS."
         },
         {
           "started": "2014-05",
           "ended": "2014-09",
           "company": "Yellowbrick",
           "branch": "Parking",
-          "platform": "Cordova/Backbone/Marionette",
-          "description": "For Yellowbrick, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline), Backbone, Marionette, RequireJS, Emblem.js, Coffeescript, SASS."
+          "platform": "Cordova / Backbone / Marionette",
+          "description": "For Yellowbrick, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline), Backbone, Marionette, RequireJS, Emblem.js, CoffeeScript, SASS."
         },
         {
           "started": "2014-04",
           "ended": "2014-05",
           "company": "Seacon",
           "branch": "Logistics",
-          "platform": "Cordova/Backbone/Marionette",
-          "description": "For Seacon Logistics, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline and backend API), Backbone, Marionette, Bootstrap, Coffeescript, SASS."
+          "platform": "Cordova / Backbone / Marionette",
+          "description": "For Seacon Logistics, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline and backend API), Backbone, Marionette, Bootstrap, CoffeeScript, SASS."
         },
         {
           "started": "2014-02",
           "ended": "2014-04",
           "company": "IDT Capture",
           "branch": "Scanning",
-          "platform": "Cordova/Backbone",
-          "description": "For IDT Capture, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline and backend API), Backbone, Marionette, Bootstrap, Coffeescript, SASS."
+          "platform": "Cordova / Backbone",
+          "description": "For IDT Capture, a customer of Kabisa, Alex made a cross platform mobile application with Cordova (PhoneGap). The application is basically a single-page HTML5 web application, wrapped in a native WebView.<br><br>Techniques used: Rails (for it's asset pipeline and backend API), Backbone, Marionette, Bootstrap, CoffeeScript, SASS."
         },
         {
           "started": "2014-01",
           "ended": "2014-02",
           "company": "Ultimaker",
           "branch": "3D printing",
-          "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, Coffeescript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku."
+          "platform": "Ruby on Rails / CoffeeScript",
+          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, CoffeeScript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku."
         }
       ]
     },
@@ -117,15 +117,15 @@
           "ended": "2014-01",
           "company": "Ultimaker",
           "branch": "3D printing",
-          "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, Coffeescript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku."
+          "platform": "Ruby on Rails / CoffeeScript",
+          "description": "For Ultimaker, a customer of Kabisa, Alex contributed to YouMagine.com, a social platform for sharing 3D print designs.<br><br>Techniques used: Ruby on Rails, CoffeeScript, SASS, Slim, Bootstrap, PostgreSQL, Redis, Test Driven Development, Heroku."
         },
         {
           "started": "2013-01",
           "ended": "2013-10",
           "company": "Malmberg",
           "branch": "Education",
-          "platform": "Ruby on Rails/Coffeescript",
+          "platform": "Ruby on Rails / CoffeeScript",
           "description": "creation and "
         },
         {
@@ -133,15 +133,15 @@
           "ended": "2013-01",
           "company": "Philips",
           "branch": "Lighting",
-          "platform": "Ruby on Rails/Coffeescript",
-          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of light-collector.com, a social platform for sharing images.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, PostgreSQL, Amazon S2, Nginx, Unicorn."
+          "platform": "Ruby on Rails / CoffeeScript",
+          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of light-collector.com, a social platform for sharing images.<br><br>Techniques used: Ruby on Rails, CoffeeScript, Haml, SASS, PostgreSQL, Amazon S2, Nginx, Unicorn."
         },
         {
           "started": "2012-04",
           "ended": "2012-07",
           "company": "Malmberg",
           "branch": "Education",
-          "platform": "Ruby on Rails/Coffeescript",
+          "platform": "Ruby on Rails / CoffeeScript",
           "description": "creation and "
         },
         {
@@ -150,15 +150,15 @@
           "company": "Philips",
           "branch": "Lighting",
           "platform": "Titanium Mobile Apps",
-          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of the cross-platform mobile application Lighting Hub. It is used for browsing the entire Philips Lighting Catalogue.<br><br>Techniques used: Titanium, Coffeescript, SQLite."
+          "description": "For Philips, a customer of Ciber, Alex contributed to the creation of the cross-platform mobile application Lighting Hub. It is used for browsing the entire Philips Lighting Catalogue.<br><br>Techniques used: Titanium, CoffeeScript, SQLite."
         },
         {
           "started": "2010-12",
           "ended": "2012-02",
           "company": "Malmberg",
           "branch": "Education",
-          "platform": "Ruby on Rails/Javascript",
-          "description": "For Malmberg, a customer of Ciber, Alex contributed over several periods of time, to the creation and expansion of the Malmberg Publishing Platform, a new generation of teaching methods.<br><br>Techniques used: Ruby on Rails, Coffeescript, Haml, SASS, SQL Server, Apache, Passenger."
+          "platform": "Ruby on Rails / Javascript",
+          "description": "For Malmberg, a customer of Ciber, Alex contributed over several periods of time, to the creation and expansion of the Malmberg Publishing Platform, a new generation of teaching methods.<br><br>Techniques used: Ruby on Rails, CoffeeScript, Haml, SASS, SQL Server, Apache, Passenger."
         },
         {
           "started": "2010-10",
@@ -172,7 +172,7 @@
           "ended": "2010-10",
           "company": "Malmberg",
           "branch": "Education",
-          "platform": "Ruby on Rails/Javascript"
+          "platform": "Ruby on Rails / Javascript"
         },
         {
           "started": "2008-01",
@@ -226,41 +226,46 @@
   ],
   "portfolio": [
     {
+      "title": "Mobiliteitsfabriek",
+      "link": "https://www.reisbalans.nl/",
+      "description": "For Mobiliteitsfabriek, Alex worked on Reisbalans, a platform consisting of a web application and a mobile app for integrating transport systems into a mobility solution."
+    },
+    {
       "title": "YoungCapital",
       "link": "https://www.youngcapital.nl/info/app",
-      "description": "For YoungCapital I created the YoungCapital, StudentenWerk and StudentJob mobile applications, based on Cordova."
+      "description": "For YoungCapital Alex created the YoungCapital, StudentenWerk and StudentJob mobile applications, based on Cordova."
     },
     {
       "title": "Digidentity",
       "link": "https://www.digid.nl/mijn-digid/",
-      "description": "For Digidentity I contributed to the identity management platform for the Dutch government, a Rails application."
+      "description": "For Digidentity Alex contributed to the identity management platform for the Dutch government, a Rails application."
     },
     {
       "title": "Yellowbrick",
       "link": "https://www.yellowbrick.nl/parkeer-app/",
-      "description": "For Yellowbrick I contributed to this mobile application, essentially a one-page Backbone/Marionette app, packaged with Cordova."
+      "description": "For Yellowbrick Alex contributed to this mobile application, essentially a one-page Backbone/Marionette app, packaged with Cordova."
     },
     {
       "title": "YouMagine",
       "link": "https://www.youmagine.com/",
-      "description": "For Ultimaker I contributed to building this social platform for sharing 3D print designs."
+      "description": "For Ultimaker Alex contributed to building this social platform for sharing 3D print designs."
     },
     {
       "title": "Examentrainer",
-      "description": "For Malmberg I made this exam trainer for MBO students."
+      "description": "For Malmberg Alex made this exam trainer for MBO students."
     },
     {
       "title": "Light Collector",
       "link": "https://www.light-collector.com/",
-      "description": "For Philips I made this social platform for sharing images as part of a team."
+      "description": "For Philips Alex made this social platform for sharing images as part of a team."
     },
     {
       "title": "Taalblokken",
-      "description": "For Malmberg I made this digital education environment for MBO students as part of a team."
+      "description": "For Malmberg Alex made this digital education environment for MBO students as part of a team."
     },
     {
       "title": "Methodesites",
-      "description": "For Malmberg I made this digital education environment for VO students as part of a team."
+      "description": "For Malmberg Alex made this digital education environment for VO students as part of a team."
     }
   ],
   "skills": {
@@ -278,16 +283,16 @@
         "weight": 6
       },
       {
-        "text": "Coffeescript",
-        "weight": 6
-      },
-      {
         "text": "JavaScript",
         "weight": 5
       },
       {
         "text": "SQL",
         "weight": 5
+      },
+      {
+        "text": "CoffeeScript",
+        "weight": 3
       }
     ],
     "ruby_frameworks": [
@@ -297,6 +302,10 @@
       }
     ],
     "ruby_tools": [
+      {
+        "text": "GraphQL",
+        "weight": 7
+      },
       {
         "text": "RSpec",
         "weight": 7
@@ -310,11 +319,11 @@
         "weight": 4
       },
       {
-        "text": "Sidekiq",
+        "text": "Bundler",
         "weight": 3
       },
       {
-        "text": "Bundler",
+        "text": "Sidekiq",
         "weight": 3
       }
     ],
@@ -325,11 +334,7 @@
       },
       {
         "text": "Angular2",
-        "weight": 5
-      },
-      {
-        "text": "Marionette.js",
-        "weight": 4
+        "weight": 3
       },
       {
         "text": "Backbone.js",
@@ -350,16 +355,32 @@
         "weight": 8
       },
       {
-        "text": "Gulp",
-        "weight": 5
+        "text": "Detox",
+        "weight": 4
       },
       {
-        "text": "Browserify",
-        "weight": 5
+        "text": "Jest",
+        "weight": 4
       },
       {
         "text": "Karma",
         "weight": 4
+      },
+      {
+        "text": "Browserify",
+        "weight": 3
+      },
+      {
+        "text": "ESLint",
+        "weight": 3
+      },
+      {
+        "text": "Prettier",
+        "weight": 3
+      },
+      {
+        "text": "Gulp",
+        "weight": 3
       },
       {
         "text": "Yarn",
@@ -394,11 +415,11 @@
     ],
     "html_tools": [
       {
-        "text": "Pug",
+        "text": "Haml",
         "weight": 5
       },
       {
-        "text": "Haml",
+        "text": "Pug",
         "weight": 5
       }
     ],
@@ -408,11 +429,11 @@
         "weight": 5
       },
       {
-        "text": "Redis",
+        "text": "ElasticSearch",
         "weight": 4
       },
       {
-        "text": "Elasticsearch",
+        "text": "Redis",
         "weight": 4
       },
       {
@@ -422,6 +443,10 @@
     ],
     "devops": [
       {
+        "text": "Ansible",
+        "weight": 6
+      },
+      {
         "text": "Docker",
         "weight": 6
       },
@@ -430,7 +455,19 @@
         "weight": 5
       },
       {
+        "text": "AWS",
+        "weight": 4
+      },
+      {
+        "text": "App Center",
+        "weight": 4
+      },
+      {
         "text": "Capistrano",
+        "weight": 4
+      },
+      {
+        "text": "Apache",
         "weight": 3
       },
       {
@@ -438,15 +475,7 @@
         "weight": 3
       },
       {
-        "text": "Apache",
-        "weight": 3
-      },
-      {
         "text": "Passenger",
-        "weight": 3
-      },
-      {
-        "text": "AWS",
         "weight": 3
       },
       {
@@ -460,8 +489,12 @@
     ],
     "mobile": [
       {
+        "text": "React Native",
+        "weight": 5
+      },
+      {
         "text": "Cordova",
-        "weight": 4
+        "weight": 2
       }
     ],
     "tools": [
@@ -470,11 +503,11 @@
         "weight": 6
       },
       {
-        "text": "VSCode",
+        "text": "Unix",
         "weight": 1
       },
       {
-        "text": "OSX",
+        "text": "VSCode",
         "weight": 1
       }
     ],
@@ -484,8 +517,16 @@
         "weight": 5
       },
       {
-        "text": "Test Driven Development",
+        "text": "TDD",
         "weight": 4
+      },
+      {
+        "text": "CI",
+        "weight": 3
+      },
+      {
+        "text": "CD",
+        "weight": 2
       }
     ]
   }
